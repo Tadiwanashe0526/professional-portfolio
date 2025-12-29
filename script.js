@@ -491,3 +491,31 @@ if (navsmartModal) {
         }
     });
 }
+
+// Weather App Modal Functionality
+const weatherModal = document.getElementById('weatherModal');
+const weatherItem = document.querySelector('[data-project="weather-app"]');
+const weatherClose = document.querySelector('[data-modal="weatherModal"]');
+
+if (weatherItem) {
+    weatherItem.addEventListener('click', () => {
+        weatherModal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    });
+}
+
+if (weatherClose) {
+    weatherClose.addEventListener('click', () => {
+        weatherModal.classList.remove('active');
+        document.body.style.overflow = 'auto';
+    });
+}
+
+if (weatherModal) {
+    weatherModal.addEventListener('click', (e) => {
+        if (e.target === weatherModal) {
+            weatherModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+    });
+}

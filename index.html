@@ -420,6 +420,34 @@
                                 </div>
                             </div>
 
+                            <!-- Project: Weather App -->
+                            <div class="project-card" data-project="weather-app">
+                                <div class="project-image">
+                                    <img src="images/weather-card.png" alt="Weather App Project"
+                                        style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
+                                    <div class="project-overlay" style="opacity: 0; transition: opacity 0.3s;">
+                                        <span class="project-tag">Web Development • API</span>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">SkyCast | Real-time Weather App</h3>
+                                    <p class="project-description">
+                                        A minimalist weather application providing real-time forecasts, humidity, and
+                                        wind speed data for global locations using OpenWeatherMap API.
+                                    </p>
+                                    <div class="project-tech">
+                                        <span>HTML</span>
+                                        <span>CSS</span>
+                                        <span>JavaScript</span>
+                                        <span>API Integration</span>
+                                    </div>
+                                    <div class="project-meta">
+                                        <span class="project-date">2024</span>
+                                        <span class="project-link">Click for Details →</span>
+                                    </div>
+                                </div>
+                            </div>
+
 
                         </div>
                     </div>
@@ -1494,6 +1522,70 @@
                         <span class="modal-tech-tag">Leaflet</span>
                         <span class="modal-tech-tag">JavaScript</span>
                         <span class="modal-tech-tag">Dijkstra's Algorithm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Weather App Project Modal -->
+    <div id="weatherModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal="weatherModal">&times;</span>
+            <div class="modal-body">
+                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                    <h2 class="modal-title" style="margin-bottom: 0;">SkyCast | Real-time Weather App</h2>
+                    <a href="https://github.com/Tadiwanashe0526/vanilla-weather-project" target="_blank"
+                        style="background: var(--accent); color: white; padding: 4px 12px; border-radius: 4px; font-size: 0.85rem; font-weight: 600; text-decoration: none; border: 1px solid var(--border-color); display: flex; align-items: center; gap: 0.5rem;">
+                        <i class="fab fa-github"></i> Repository
+                    </a>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Project Overview</h3>
+                    <p>
+                        SkyCast is a sleek, responsive weather application built with vanilla JavaScript. It fetches
+                        live meteorological data from the OpenWeatherMap API to provide users with current conditions
+                        and a 5-day forecast. The project focuses on clean UI design and efficient asynchronous data
+                        handling.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/weather-card.png" alt="Weather App Interface" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Key Features</h3>
+                    <ul class="modal-features">
+                        <li><strong>Global Search</strong>: Instant weather data for any city worldwide.</li>
+                        <li><strong>Real-time Updates</strong>: Live temperature, humidity, and wind speed data.</li>
+                        <li><strong>5-Day Forecast</strong>: Visual breakdown of upcoming weather patterns.</li>
+                        <li><strong>Dynamic UI</strong>: Responsive design that works across all device sizes.</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Technical Implementation</h3>
+                    <ul class="modal-features">
+                        <li><strong>Asynchronous JS</strong>: Utilized Fetch API and Async/Await for non-blocking data
+                            retrieval.</li>
+                        <li><strong>DOM Manipulation</strong>: Dynamic rendering of weather icons and data without page
+                            refreshes.</li>
+                        <li><strong>API Integration</strong>: Securely handling OpenWeatherMap API requests and JSON
+                            parsing.</li>
+                        <li><strong>Vanilla CSS</strong>: Custom styling for a modern, glassmorphism-inspired aesthetic.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Tech Stack</h3>
+                    <div class="modal-tech-stack">
+                        <span class="modal-tech-tag">HTML5</span>
+                        <span class="modal-tech-tag">CSS3</span>
+                        <span class="modal-tech-tag">JavaScript (ES6+)</span>
+                        <span class="modal-tech-tag">OpenWeatherMap API</span>
+                        <span class="modal-tech-tag">Netlify Deployment</span>
                     </div>
                 </div>
             </div>
