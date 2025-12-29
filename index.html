@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tadiwanashe Magara | Data Science Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Tadiwanashe Magara - Computer Science student specializing in Data Science and Machine Learning">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="ide-layout">
+        <!-- Activity Bar -->
+        <aside class="activity-bar">
+            <div class="action-item active"><i class="far fa-copy"></i></div>
+            <div class="action-item"><i class="fas fa-search"></i></div>
+            <div class="action-item"><i class="fas fa-code-branch"></i></div>
+            <div class="action-item"><i class="far fa-bug"></i></div>
+            <div class="action-item bottom"><i class="fas fa-cog"></i></div>
+        </aside>
+
+        <!-- Sidebar Explorer -->
+        <aside class="sidebar-explorer">
+            <!-- Profile Section -->
+            <div class="sidebar-profile">
+                <div class="profile-avatar-container">
+                    <img src="images/hero-profile.jpg" alt="Profile" class="sidebar-avatar">
+                    <div class="sidebar-status-dot"></div>
+                </div>
+                <h3 class="sidebar-name">Tadiwanashe Magara</h3>
+                <p class="sidebar-role">Data Scientist</p>
+                <div class="sidebar-status-badge">
+                    <span class="pulse-dot"></span> Open to Work
+                </div>
+            </div>
+
+            <div class="explorer-header">
+                <span class="explorer-title">EXPLORER</span>
+                <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <div class="explorer-content">
+                <div class="explorer-section open">
+                    <div class="section-header">
+                        <i class="fas fa-chevron-down"></i>
+                        <span>PORTFOLIO</span>
+                    </div>
+                    <div class="file-tree">
+                        <a href="#home" class="file-link active" data-section="home">
+                            <i class="fab fa-html5 icon-html"></i> index.html
+                        </a>
+                        <a href="#about" class="file-link" data-section="about">
+                            <i class="fab fa-css3-alt icon-css"></i> _about.scss
+                        </a>
+                        <a href="#projects" class="file-link" data-section="projects">
+                            <i class="fab fa-js icon-js"></i> projects.json
+                        </a>
+                        <a href="#work-experience" class="file-link" data-section="work-experience">
+                            <i class="fas fa-briefcase icon-ts"></i> experience.ts
+                        </a>
+                        <a href="#experience" class="file-link" data-section="experience">
+                            <i class="fas fa-users icon-md"></i> leadership.md
+                        </a>
+                        <a href="#contact" class="file-link" data-section="contact">
+                            <i class="fas fa-envelope icon-json"></i> contact.yml
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Editor Area -->
+        <main class="editor-area">
+            <!-- Tabs -->
+            <div class="editor-tabs">
+                <div class="tab active">
+                    <i class="fab fa-html5 icon-html"></i>
+                    <span>index.html</span>
+                    <i class="fas fa-times close-tab"></i>
+                </div>
+            </div>
+
+            <!-- Breadcrumbs -->
+            <div class="breadcrumbs">
+                <span>portfolio</span>
+                <i class="fas fa-chevron-right"></i>
+                <span>index.html</span>
+            </div>
+
+            <!-- Content -->
+            <div class="editor-content scroll-container">
+
+                <!-- Hero Section -->
+                <section id="home" class="hero">
+                    <div class="hero-grid">
+                        <!-- Left: Code Snippet -->
+                        <div class="hero-code-block">
+
+                            <div class="code-window">
+                                <div class="window-header">
+                                    <div class="dots">
+                                        <span class="dot red"></span>
+                                        <span class="dot yellow"></span>
+                                        <span class="dot green"></span>
+                                    </div>
+                                    <span class="window-title">developer.js</span>
+                                </div>
+                                <div class="code-body">
+                                    <div class="line"><span class="kwd">const</span> <span class="cls">dev</span> = {
+                                    </div>
+                                    <div class="line">&nbsp;&nbsp;<span class="prop">name</span>: <span
+                                            class="str">"Tadiwanashe"</span>,</div>
+                                    <div class="line">&nbsp;&nbsp;<span class="prop">role</span>: <span
+                                            class="str">"Data Scientist"</span></div>
+                                    <div class="line">};</div>
+                                </div>
+                            </div>
+
+                            <h1 class="hero-headline">DESIGNING INTELLIGENT DIGITAL SYSTEMS</h1>
+                            <p class="hero-subtext">
+                                Where data analysis, system architecture, and development practices converge to
+                                transform <span class="highlight-text">raw data</span> into meaningful <span
+                                    class="highlight-text">intelligent applications</span>.
+                            </p>
+
+                            <div class="hero-actions">
+                                <a href="#projects" class="btn-ide primary">View Projects</a>
+                                <a href="#contact" class="btn-ide secondary">Contact Me</a>
+                            </div>
+                        </div>
+
+                        <!-- Right: Tech Orbit with Profile -->
+                        <div class="hero-orbit-visual">
+                            <div class="orbit-container">
+                                <!-- Central Photo -->
+                                <div class="profile-center">
+                                    <img src="images/original-profile.jpg" alt="Profile" class="profile-photo">
+                                </div>
+
+                                <!-- Interactive Orbits -->
+                                <div class="orbit-ring ring-1">
+                                    <div class="orbit-item item-1"><i class="fab fa-python"></i></div>
+                                    <div class="orbit-item item-2"><i class="fas fa-database"></i></div>
+                                    <div class="orbit-item item-3"><i class="fas fa-brain"></i></div>
+                                </div>
+                                <div class="orbit-ring ring-2">
+                                    <div class="orbit-item item-4"><i class="fab fa-github"></i></div>
+                                    <div class="orbit-item item-5"><i class="fab fa-docker"></i></div>
+                                    <div class="orbit-item item-6"><i class="fab fa-aws"></i></div>
+                                </div>
+
+                                <!-- Connections/Glow -->
+                                <div class="orbit-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- About Section -->
+                <section id="about" class="about">
+                    <div class="container">
+                        <div class="section-header">
+                            <span class="section-tag">Get to know me</span>
+                            <h2 class="section-title">About Me</h2>
+                        </div>
+                        <div class="about-content">
+                            <div class="about-text">
+                                <p class="about-intro">
+                                    I'm a Computer Science student at <strong>Albukhary International University
+                                        (AIU)</strong>
+                                    with a CGPA of 3.69/4.00, specializing in Data Science and Machine Learning.
+                                </p>
+                                <p>
+                                    My passion lies in building intelligent systems that leverage machine learning, deep
+                                    learning,
+                                    and cloud technologies to solve complex real-world problems. I have hands-on
+                                    experience with
+                                    production-level projects including AI chatbots, smart campus navigation systems,
+                                    and predictive
+                                    analytics platforms.
+                                </p>
+                                <p>
+                                    I'm proficient in Python, SQL, and various ML frameworks, with expertise in both
+                                    supervised
+                                    and unsupervised learning techniques. I'm also certified in Google Cloud Computing
+                                    and have
+                                    experience deploying ML models to production environments.
+                                </p>
+                            </div>
+                            <div class="skills-grid">
+                                <div class="skill-category">
+                                    <h3>Machine Learning</h3>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">EDA</span>
+                                        <span class="skill-tag">Feature Engineering</span>
+                                        <span class="skill-tag">Classification/Regression</span>
+                                        <span class="skill-tag">Clustering</span>
+                                        <span class="skill-tag">CNN/RNN</span>
+                                        <span class="skill-tag">NLP</span>
+                                        <span class="skill-tag">Data Mining</span>
+                                        <span class="skill-tag">Deep Learning</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <h3>Generative AI & LLMs</h3>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">Claude</span>
+                                        <span class="skill-tag">Mistral</span>
+                                        <span class="skill-tag">LLaMA</span>
+                                        <span class="skill-tag">LangChain</span>
+                                        <span class="skill-tag">LlamaIndex</span>
+                                        <span class="skill-tag">RAG</span>
+                                        <span class="skill-tag">Vector Databases</span>
+                                        <span class="skill-tag">Prompt Engineering</span>
+                                        <span class="skill-tag">Agentic Workflows</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <h3>Data Engineering</h3>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">Hadoop</span>
+                                        <span class="skill-tag">Database</span>
+                                        <span class="skill-tag">Pandas</span>
+                                        <span class="skill-tag">NumPy</span>
+                                        <span class="skill-tag">Data Structures & Algorithms</span>
+                                        <span class="skill-tag">Automation</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <h3>Visualization</h3>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">Tableau</span>
+                                        <span class="skill-tag">Matplotlib</span>
+                                        <span class="skill-tag">Seaborn</span>
+                                        <span class="skill-tag">Plotly</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <h3>Programming</h3>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">Python</span>
+                                        <span class="skill-tag">SQL</span>
+                                        <span class="skill-tag">R</span>
+                                        <span class="skill-tag">Java</span>
+                                        <span class="skill-tag">HTML</span>
+                                        <span class="skill-tag">CSS</span>
+                                        <span class="skill-tag">JavaScript</span>
+                                        <span class="skill-tag">C</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <h3>Soft Skills</h3>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">Problem Solving</span>
+                                        <span class="skill-tag">Analytical Thinking</span>
+                                        <span class="skill-tag">Communication</span>
+                                        <span class="skill-tag">Team Collaboration</span>
+                                        <span class="skill-tag">Time Management</span>
+                                        <span class="skill-tag">Adaptability</span>
+                                        <span class="skill-tag">Attention to Detail</span>
+                                        <span class="skill-tag">Continuous Learning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Projects Section -->
+                <section id="projects" class="projects">
+                    <div class="container">
+                        <div class="section-header">
+                            <span class="section-tag">My work</span>
+                            <h2 class="section-title">Featured Projects</h2>
+                        </div>
+                        <div class="projects-grid">
+                            <!-- Project: RideSense -->
+                            <div class="project-card" data-project="ridesense">
+                                <div class="project-image">
+                                    <img src="images/ridesense-card.png" alt="RideSense Project"
+                                        style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
+                                    <div class="project-overlay" style="opacity: 0; transition: opacity 0.3s;">
+                                        <span class="project-tag">Data Science • Analytics</span>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">RideSense | Intelligent Analytics</h3>
+                                    <p class="project-description">
+                                        An end-to-end analytics solution for ride-hailing data using clustering,
+                                        association rule mining, and anomaly detection to optimize urban transportation.
+                                    </p>
+                                    <div class="project-tech">
+                                        <span>Python</span>
+                                        <span>Pandas</span>
+                                        <span>Scikit-learn</span>
+                                        <span>NumPy</span>
+                                    </div>
+                                    <div class="project-meta">
+                                        <span class="project-date">2024</span>
+                                        <span class="project-link">Click for Details →</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project: NavSmart -->
+                            <div class="project-card" data-project="navsmart">
+                                <div class="project-image">
+                                    <img src="images/navsmart-hero.png" alt="NavSmart Project"
+                                        style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
+                                    <div class="project-overlay" style="opacity: 0; transition: opacity 0.3s;">
+                                        <span class="project-tag">Full Stack • Geospatial</span>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">NavSmart | Campus Navigation System</h3>
+                                    <p class="project-description">
+                                        Developed a campus-wide smart navigation system with interactive geospatial
+                                        mapping,
+                                        Dijkstra’s shortest-path algorithm, and an immersive virtual tour module.
+                                    </p>
+                                    <div class="project-tech">
+                                        <span>React</span>
+                                        <span>Tailwind CSS</span>
+                                        <span>Leaflet</span>
+                                        <span>JavaScript</span>
+                                    </div>
+                                    <div class="project-meta">
+                                        <span class="project-date">Oct 2024 - Present</span>
+                                        <span class="project-link">Click for Details →</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 2: Diabetes Prediction -->
+                            <div class="project-card" data-project="diabetes-prediction">
+                                <div class="project-image">
+                                    <img src="images/diabetes-card.png" alt="Diabetes Prediction Project"
+                                        style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
+                                    <div class="project-overlay" style="opacity: 0; transition: opacity 0.3s;">
+                                        <span class="project-tag">Machine Learning</span>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">Diabetes Prediction & Risk Analysis System</h3>
+                                    <p class="project-description">
+                                        Built an end-to-end data science pipeline for diabetes risk prediction, covering
+                                        data cleaning, EDA, feature engineering, and supervised learning.
+                                    </p>
+                                    <div class="project-tech">
+                                        <span>Python</span>
+                                        <span>Scikit-learn</span>
+                                        <span>Pandas</span>
+                                        <span>Matplotlib</span>
+                                    </div>
+                                    <div class="project-meta">
+                                        <span class="project-date">July 2022</span>
+                                        <span class="project-link">Click for Details →</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 3: Auction System -->
+                            <div class="project-card" data-project="auction-system">
+                                <div class="project-image">
+                                    <img src="images/auction-card.png" alt="Auction System Project"
+                                        style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
+                                    <div class="project-overlay" style="opacity: 0; transition: opacity 0.3s;">
+                                        <span class="project-tag">Backend • Database</span>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">Auction and Bidding System</h3>
+                                    <p class="project-description">
+                                        Developed a real-time auction and bidding system in Python enabling product
+                                        listing, live bidding, and automatic highest-bid assignment.
+                                    </p>
+                                    <div class="project-tech">
+                                        <span>Python</span>
+                                        <span>SQL</span>
+                                        <span>Database Design</span>
+                                    </div>
+                                    <div class="project-meta">
+                                        <span class="project-date">Aug 2024</span>
+                                        <span class="project-link">Click for Details →</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 4: AIU Chatbot -->
+                            <div class="project-card" data-project="chatbot">
+                                <div class="project-image">
+                                    <img src="images/chatbot-card.png" alt="AIU Chatbot Project"
+                                        style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
+                                    <div class="project-overlay" style="opacity: 0; transition: opacity 0.3s;">
+                                        <span class="project-tag">AI • NLP</span>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">AIU Chatbot</h3>
+                                    <p class="project-description">
+                                        Developed an AI-powered university chatbot using NLP and machine learning,
+                                        supporting daily users and parents.
+                                    </p>
+                                    <div class="project-tech">
+                                        <span>NLP</span>
+                                        <span>Python</span>
+                                        <span>NLTK</span>
+                                        <span>Flask</span>
+                                    </div>
+                                    <div class="project-meta">
+                                        <span class="project-date">April 2024</span>
+                                        <span class="project-link">Click for Details →</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Work Experience Section -->
+                <section id="work-experience" class="experience">
+                    <div class="container">
+                        <div class="section-header">
+                            <span class="section-tag">Professional Path</span>
+                            <h2 class="section-title">Experience</h2>
+                        </div>
+                        <div class="timeline">
+                            <!-- Externship: RAG Pipeline -->
+                            <div class="timeline-item timeline-item-clickable" data-project="rag-pipeline">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">Externship - Dec 2024</span>
+                                    <h3 class="timeline-title">Extern - RAG Pipeline Developer</h3>
+                                    <p class="timeline-description">
+                                        Built an advanced Retrieval-Augmented Generation (RAG) pipeline for intelligent
+                                        document
+                                        information retrieval. Implemented vector embeddings and semantic search to
+                                        enable accurate
+                                        question-answering over large document collections.
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span>RAG Architecture</span>
+                                        <span>LangChain</span>
+                                        <span>Vector Databases</span>
+                                        <span>LLMs</span>
+                                    </div>
+                                    <div class="timeline-view-cert">
+                                        <span>Click to view details →</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Experience: Computer Lab Assistant -->
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">Student Assistant - 2024</span>
+                                    <h3 class="timeline-title">Computer Lab Assistant</h3>
+                                    <p class="timeline-description">
+                                        Managed university computer laboratory operations, assisting students with
+                                        technical issues
+                                        and ensuring optimal functionality of equipment. Maintained a conducive, silent
+                                        study
+                                        environment to support student academic success and research activities.
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span>Lab Management</span>
+                                        <span>Technical Support</span>
+                                        <span>Student Assistance</span>
+                                        <span>Environment Maintenance</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Experience Section -->
+                <section id="experience" class="experience">
+                    <div class="container">
+                        <div class="section-header">
+                            <span class="section-tag">Community & Impact</span>
+                            <h2 class="section-title">Leadership & Volunteering</h2>
+                        </div>
+                        <div class="timeline">
+                            <!-- Leadership 1 -->
+                            <div class="timeline-item timeline-item-clickable" data-experience="sci-committee">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">Academic Leadership - 2024/2025</span>
+                                    <h3 class="timeline-title">Executive for Welfare Team - School of Computing and
+                                        Informatics
+                                        (SCI)</h3>
+                                    <p class="timeline-description">
+                                        Recognized for dedicated service and care as Executive for Welfare Team of the
+                                        SCI Committee
+                                        2024/2025.
+                                        Established better support systems making a meaningful difference in student
+                                        well-being.
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span>Student Welfare</span>
+                                        <span>Support Systems</span>
+                                        <span>Student Well-being</span>
+                                        <span>Leadership</span>
+                                    </div>
+                                    <div class="timeline-view-cert">
+                                        <span>Click to view certificate →</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Leadership 2 -->
+                            <div class="timeline-item timeline-item-clickable" data-experience="peers-club">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">Student Leadership - 2024/25</span>
+                                    <h3 class="timeline-title">HighCom Member & Event Executive - Peer & Support Club
+                                    </h3>
+                                    <p class="timeline-description">
+                                        Demonstrated dedication and commitment as a member of the Peer & Support High
+                                        Committee.
+                                        Contributed to event planning, coordination, and execution of student engagement
+                                        activities.
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span>Event Planning</span>
+                                        <span>High Committee</span>
+                                        <span>Student Support</span>
+                                        <span>Leadership</span>
+                                    </div>
+                                    <div class="timeline-view-cert">
+                                        <span>Click to view certificate →</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Leadership 3 -->
+                            <div class="timeline-item timeline-item-clickable" data-experience="zisco-leadership">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">Community Leadership - 2024/2025</span>
+                                    <h3 class="timeline-title">Vice President - Zimbabwe Student Community (ZISCO)</h3>
+                                    <p class="timeline-description">
+                                        Supporting international student integration and community-building initiatives.
+                                        Bringing honor and prestige to fellow students, community, and alma mater.
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span>Vice President</span>
+                                        <span>Community Building</span>
+                                        <span>Student Integration</span>
+                                        <span>Cultural Leadership</span>
+                                    </div>
+                                    <div class="timeline-view-cert">
+                                        <span>Click to view certificate →</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Leadership 4 -->
+                            <div class="timeline-item timeline-item-clickable" data-experience="stem-carnival">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">Volunteer - October 2024</span>
+                                    <h3 class="timeline-title">Facilitator - Malaysia National STEM Carnival 2024</h3>
+                                    <p class="timeline-description">
+                                        Served as facilitator for the Science, Technology, Engineering and Mathematics
+                                        (STEM)
+                                        National Level Carnival 2024
+                                        at Albukhary International University, Alor Setar, Kedah. Recognized by the
+                                        Ministry of
+                                        Education Malaysia
+                                        for outstanding efforts in promoting STEM education.
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span>STEM Education</span>
+                                        <span>Event Facilitation</span>
+                                        <span>Ministry of Education</span>
+                                        <span>National Level</span>
+                                    </div>
+                                    <div class="timeline-view-cert">
+                                        <span>Click to view certificate →</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Leadership 5 -->
+                            <div class="timeline-item timeline-item-clickable" data-experience="red-crescent">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">Volunteer - October 2024</span>
+                                    <h3 class="timeline-title">Volunteer - Malaysian Red Crescent</h3>
+                                    <p class="timeline-description">
+                                        Served as a facilitator for the Safe Steps Kids Carnival at Kedah State Level
+                                        2024,
+                                        contributing to health, safety education, and community outreach initiatives at
+                                        Albukhary International University.
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span>Humanitarian Work</span>
+                                        <span>Community Service</span>
+                                        <span>Child Safety Education</span>
+                                        <span>Event Facilitation</span>
+                                    </div>
+                                    <div class="timeline-view-cert">
+                                        <span>Click to view certificate →</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Leadership 6 -->
+                            <div class="timeline-item timeline-item-clickable" data-experience="asean-meeting">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">Delegate - June 2025</span>
+                                    <h3 class="timeline-title">Minister Delegate - ASEAN Model Meeting 2025</h3>
+                                    <p class="timeline-description">
+                                        Represented Cambodia as Minister of Social Welfare and Development during the
+                                        AIU Model
+                                        ASEAN Meeting,
+                                        held June 14-15, 2025. Recognized for outstanding contribution and dedication in
+                                        diplomacy
+                                        simulations
+                                        and regional policy discussions.
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span>Diplomacy</span>
+                                        <span>Policy Development</span>
+                                        <span>Regional Collaboration</span>
+                                        <span>ASEAN Affairs</span>
+                                    </div>
+                                    <div class="timeline-view-cert">
+                                        <span>Click to view certificate →</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Leadership 7 - Young Innovators Challenge -->
+                            <div class="timeline-item timeline-item-clickable" data-experience="young-innovators">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">Volunteer - 2025</span>
+                                    <h3 class="timeline-title">Event Volunteer - Young Innovators Challenge 2025</h3>
+                                    <p class="timeline-description">
+                                        Served as event volunteer at the YIC State-Level Maker Fair 2025, demonstrating
+                                        outstanding
+                                        commitment and tireless efforts in supporting young innovators and makers.
+                                        Contributed to
+                                        fostering innovation and creativity among students.
+                                    </p>
+                                    <div class="timeline-tags">
+                                        <span>Innovation Support</span>
+                                        <span>Event Volunteering</span>
+                                        <span>Youth Development</span>
+                                        <span>Maker Fair</span>
+                                    </div>
+                                    <div class="timeline-view-cert">
+                                        <span>Click to view certificate →</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contact Section -->
+                <section id="contact" class="contact">
+                    <div class="container">
+                        <div class="section-header">
+                            <span class="section-tag">Let's connect</span>
+                            <h2 class="section-title">Get In Touch</h2>
+                        </div>
+                        <div class="contact-content">
+                            <div class="contact-info">
+                                <p class="contact-text">
+                                    I'm always open to discussing new projects, creative ideas, or opportunities to be
+                                    part of your
+                                    visions.
+                                    Feel free to reach out!
+                                </p>
+                                <div class="contact-methods">
+                                    <a href="mailto:magaratadiwanashe@gmail.com" class="contact-method">
+                                        <div class="contact-icon">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2">
+                                                <path
+                                                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                                </path>
+                                                <polyline points="22,6 12,13 2,6"></polyline>
+                                            </svg>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h4>Email</h4>
+                                            <p>magaratadiwanashe@gmail.com</p>
+                                        </div>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/tadiwanashe-magara-11125090"
+                                        class="contact-method" target="_blank">
+                                        <div class="contact-icon">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                <path
+                                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                            </svg>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h4>LinkedIn</h4>
+                                            <p>Connect with me</p>
+                                        </div>
+                                    </a>
+                                    <a href="https://github.com/Tadiwanashe256" class="contact-method" target="_blank">
+                                        <div class="contact-icon">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                <path
+                                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                            </svg>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h4>GitHub</h4>
+                                            <p>View my code</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <h2 class="modal-title">RAG Pipeline for Document Information Retrieval</h2>
+
+                <div class="modal-section">
+                    <h3>Project Overview</h3>
+                    <p>
+                        This project implements a sophisticated Retrieval-Augmented Generation (RAG)
+                        pipeline
+                        that enables intelligent question-answering over document collections. The system
+                        uses
+                        vector embeddings and semantic search to provide accurate, context-aware responses.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Completion Certificate</h3>
+                    <p class="modal-description">
+                        Successfully completed the Outamation AI-Powered Workflow Automation Externship,
+                        demonstrating expertise in building AI-powered automation systems.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/rag-certificate.png" alt="Extern Completion Certificate" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Interface: Document Upload & Processing</h3>
+                    <p class="modal-description">
+                        The interface allows users to upload multiple PDF documents which are then processed
+                        and indexed using OCR technology. The system extracts text, creates vector
+                        embeddings,
+                        and stores them for efficient retrieval.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/rag-interface-1.png" alt="RAG Interface - Upload Area" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Interface: Chat & Question Answering</h3>
+                    <p class="modal-description">
+                        Users can ask questions in natural language, and the system retrieves relevant
+                        context
+                        from the indexed documents to generate accurate answers. Features include
+                        configurable
+                        Top-K retrieval, confidence scoring, and response mode selection.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/rag-interface-2.png" alt="RAG Interface - Chat Interface" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Key Features</h3>
+                    <ul class="modal-features">
+                        <li>Multi-document PDF upload and processing</li>
+                        <li>Vector embeddings using state-of-the-art models</li>
+                        <li>Semantic search with configurable Top-K retrieval</li>
+                        <li>Natural language question answering</li>
+                        <li>Confidence scoring for retrieved information</li>
+                        <li>Built with LangChain and Gradio frameworks</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Technologies Used</h3>
+                    <div class="modal-tech-stack">
+                        <span class="modal-tech-tag">Python</span>
+                        <span class="modal-tech-tag">LangChain</span>
+                        <span class="modal-tech-tag">Gradio</span>
+                        <span class="modal-tech-tag">Vector Databases</span>
+                        <span class="modal-tech-tag">LLMs (Phi-3-Mini-4k)</span>
+                        <span class="modal-tech-tag">RAG Architecture</span>
+                        <span class="modal-tech-tag">OCR</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Red Crescent Certificate Modal -->
+    <div id="redCrescentModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal="redCrescentModal">&times;</span>
+            <div class="modal-body">
+                <h2 class="modal-title">Malaysian Red Crescent - Volunteer Service</h2>
+
+                <div class="modal-section">
+                    <h3>Volunteer Contribution</h3>
+                    <p>
+                        Served as a facilitator for the Safe Steps Kids Carnival at Kedah State Level 2024,
+                        organized by the Malaysian Red Crescent (Bulan Sabit Merah Malaysia) at Abubakar
+                        International University on October 5-6, 2024.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Certificate of Appreciation</h3>
+                    <p class="modal-description">
+                        Received official recognition from the Malaysian Red Crescent Kedah Chapter for
+                        dedication and contribution as a facilitator of the Safe Steps Kids Carnival,
+                        promoting child safety education and community health awareness.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/red-crescent-certificate.png"
+                            alt="Malaysian Red Crescent Certificate of Appreciation" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Event Details</h3>
+                    <ul class="modal-features">
+                        <li>Event: Safe Steps Kids Carnival - Kedah State Level 2024</li>
+                        <li>Role: Facilitator</li>
+                        <li>Date: October 5-6, 2024</li>
+                        <li>Location: Albukhary International University</li>
+                        <li>Organization: Malaysian Red Crescent (Bulan Sabit Merah Malaysia)</li>
+                        <li>Chapter: Kedah State Chapter</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Contribution Areas</h3>
+                    <div class="modal-tech-stack">
+                        <span class="modal-tech-tag">Child Safety Education</span>
+                        <span class="modal-tech-tag">Event Facilitation</span>
+                        <span class="modal-tech-tag">Community Outreach</span>
+                        <span class="modal-tech-tag">Health Awareness</span>
+                        <span class="modal-tech-tag">Humanitarian Service</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCI Committee Certificate Modal -->
+    <div id="sciCommitteeModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal="sciCommitteeModal">&times;</span>
+            <div class="modal-body">
+                <h2 class="modal-title">SCI Committee - Executive for Welfare Team</h2>
+
+                <div class="modal-section">
+                    <h3>Leadership Role</h3>
+                    <p>
+                        Served as Executive for Welfare Team of the School of Computing and Informatics
+                        (SCI) Committee
+                        for the academic year 2024/2025 at Albukhary International University.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Certificate of Recognition</h3>
+                    <p class="modal-description">
+                        Awarded by the School of Computing & Informatics Committee in recognition of
+                        dedicated service
+                        and care as Executive for Welfare Team. Initiatives in establishing better support
+                        systems
+                        made a meaningful difference in student well-being.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/sci-committee-certificate.jpg" alt="SCI Committee Certificate of Recognition"
+                            class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Key Responsibilities</h3>
+                    <ul class="modal-features">
+                        <li>Established better support systems for student well-being</li>
+                        <li>Coordinated welfare initiatives and programs</li>
+                        <li>Collaborated with faculty and administration</li>
+                        <li>Advocated for student needs and concerns</li>
+                        <li>Organized student support events and activities</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Focus Areas</h3>
+                    <div class="modal-tech-stack">
+                        <span class="modal-tech-tag">Student Welfare</span>
+                        <span class="modal-tech-tag">Support Systems</span>
+                        <span class="modal-tech-tag">Student Well-being</span>
+                        <span class="modal-tech-tag">Leadership</span>
+                        <span class="modal-tech-tag">Community Building</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- STEM Carnival Certificate Modal -->
+    <div id="stemCarnivalModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal="stemCarnivalModal">&times;</span>
+            <div class="modal-body">
+                <h2 class="modal-title">Malaysia National STEM Carnival 2024</h2>
+
+                <div class="modal-section">
+                    <h3>Event Overview</h3>
+                    <p>
+                        Served as facilitator for the Science, Technology, Engineering and Mathematics
+                        (STEM)
+                        National Level Carnival 2024, organized by the Ministry of Education Malaysia
+                        (Kementerian
+                        Pendidikan)
+                        at Albukhary International University, Alor Setar, Kedah.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Certificate of Appreciation</h3>
+                    <p class="modal-description">
+                        Received official recognition from the Ministry of Education Malaysia for
+                        outstanding efforts
+                        in contributing as a facilitator at the national-level STEM carnival, promoting
+                        science and
+                        technology education to inspire the next generation.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/stem-carnival-certificate.png" alt="STEM Carnival Certificate of Appreciation"
+                            class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Event Details</h3>
+                    <ul class="modal-features">
+                        <li>Event: STEM National Level Carnival 2024</li>
+                        <li>Role: Facilitator</li>
+                        <li>Date: October 25-28, 2024</li>
+                        <li>Location: Albukhary International University, Alor Setar, Kedah</li>
+                        <li>Organizer: Ministry of Education Malaysia</li>
+                        <li>Level: National</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Contribution Areas</h3>
+                    <div class="modal-tech-stack">
+                        <span class="modal-tech-tag">STEM Education</span>
+                        <span class="modal-tech-tag">Event Facilitation</span>
+                        <span class="modal-tech-tag">Ministry of Education</span>
+                        <span class="modal-tech-tag">National Level</span>
+                        <span class="modal-tech-tag">Youth Engagement</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ASEAN Meeting Certificate Modal -->
+    <div id="aseanMeetingModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal="aseanMeetingModal">&times;</span>
+            <div class="modal-body">
+                <h2 class="modal-title">ASEAN Model Meeting 2025</h2>
+
+                <div class="modal-section">
+                    <h3>Diplomatic Role</h3>
+                    <p>
+                        Represented Cambodia as Minister of Social Welfare and Development during the AIU
+                        Model ASEAN
+                        Meeting,
+                        held June 14-15, 2025 at Albukhary International University, Kedah, Malaysia.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Certificate of Appreciation</h3>
+                    <p class="modal-description">
+                        Recognized for outstanding contribution and dedication as Minister Delegate of
+                        Cambodia,
+                        co-organized by the School of Business and Social Sciences and Persatuan Pelajar
+                        Indonesia
+                        Albukhary International University.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/asean-meeting-certificate.png" alt="ASEAN Meeting Certificate of Appreciation"
+                            class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Event Details</h3>
+                    <ul class="modal-features">
+                        <li>Event: AIU Model ASEAN Meeting 2025</li>
+                        <li>Role: Minister of Social Welfare and Development, Delegate of Cambodia</li>
+                        <li>Date: June 14-15, 2025</li>
+                        <li>Location: Albukhary International University, Kedah, Malaysia</li>
+                        <li>Organizers: School of Business and Social Sciences, Persatuan Pelajar Indonesia
+                            AIU</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Focus Areas</h3>
+                    <div class="modal-tech-stack">
+                        <span class="modal-tech-tag">Diplomacy</span>
+                        <span class="modal-tech-tag">Policy Development</span>
+                        <span class="modal-tech-tag">Regional Collaboration</span>
+                        <span class="modal-tech-tag">ASEAN Affairs</span>
+                        <span class="modal-tech-tag">Social Welfare</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Young Innovators Challenge Certificate Modal -->
+    <div id="youngInnovatorsModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal="youngInnovatorsModal">&times;</span>
+            <div class="modal-body">
+                <h2 class="modal-title">Young Innovators Challenge 2025</h2>
+
+                <div class="modal-section">
+                    <h3>Volunteer Service</h3>
+                    <p>
+                        Served as event volunteer at the Young Innovators Challenge (YIC) State-Level Maker
+                        Fair 2025,
+                        supporting young innovators and makers in showcasing their creativity and
+                        innovation.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Certificate of Appreciation</h3>
+                    <p class="modal-description">
+                        Awarded in grateful recognition of outstanding commitment and tireless efforts as an
+                        event
+                        volunteer at the YIC State-Level Maker Fair 2025, demonstrating dedication to
+                        fostering
+                        innovation and creativity among young students.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/young-innovators-certificate.png" alt="Young Innovators Challenge Certificate"
+                            class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Event Details</h3>
+                    <ul class="modal-features">
+                        <li>Event: Young Innovators Challenge State-Level Maker Fair 2025</li>
+                        <li>Role: Event Volunteer</li>
+                        <li>Level: State Level</li>
+                        <li>National Sponsor: Yayasan Sime Darby</li>
+                        <li>Supported by: Ministry of Education Malaysia (Kementerian Pendidikan Malaysia)
+                        </li>
+                        <li>Technical Partner: Chumbaka</li>
+                        <li>In Support of: MyDigitalMaker</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Contribution Areas</h3>
+                    <div class="modal-tech-stack">
+                        <span class="modal-tech-tag">Innovation Support</span>
+                        <span class="modal-tech-tag">Event Volunteering</span>
+                        <span class="modal-tech-tag">Youth Development</span>
+                        <span class="modal-tech-tag">Maker Fair</span>
+                        <span class="modal-tech-tag">STEM Education</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Peers Club Certificate Modal -->
+    <div id="peersClubModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal="peersClubModal">&times;</span>
+            <div class="modal-body">
+                <h2 class="modal-title">Peer & Support High Committee</h2>
+
+                <div class="modal-section">
+                    <h3>High Committee Role</h3>
+                    <p>
+                        Served as a dedicated member of the Peer & Support High Committee (EXCO EVENT 1) for
+                        the
+                        academic year 2024/25.
+                        Played a key role in organizing and executing student support events.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Certificate of Accomplishment</h3>
+                    <p class="modal-description">
+                        Awarded for demonstrating dedication and commitment as a member of the Peer &
+                        Support High
+                        Committee.
+                        Presented by Albukhary International University.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/peers-certificate.png" alt="Peers Club Certificate of Accomplishment"
+                            class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Responsibilities</h3>
+                    <ul class="modal-features">
+                        <li>Event Executive (EXCO EVENT 1)</li>
+                        <li>High Committee Member</li>
+                        <li>Student Engagement Coordination</li>
+                        <li>Peer Support Activities</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Contribution Areas</h3>
+                    <div class="modal-tech-stack">
+                        <span class="modal-tech-tag">Event Management</span>
+                        <span class="modal-tech-tag">Student Welfare</span>
+                        <span class="modal-tech-tag">Team Leadership</span>
+                        <span class="modal-tech-tag">University Service</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ZISCO Modal -->
+    <div id="ziscoModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal="ziscoModal">&times;</span>
+            <div class="modal-body">
+                <h2 class="modal-title">Zimbabwe Student Community (ZISCO)</h2>
+
+                <div class="modal-section">
+                    <h3>Outstanding Campus Leadership</h3>
+                    <p>
+                        Served as Vice President of the Zimbabwe Student Community (ZISCO) for the 2024/2025
+                        academic
+                        session.
+                        Led community integration efforts and represented the Zimbabwean student body.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Certificate of Outstanding Campus Leadership</h3>
+                    <p class="modal-description">
+                        Awarded by the Centre for Student Affairs and Alumni in sincere recognition of
+                        exemplary
+                        achievements,
+                        leadership, and for bringing honor and prestige to fellow students, community, and
+                        alma mater.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/zisco-certificate.png" alt="ZISCO Leadership Certificate" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Leadership Impact</h3>
+                    <ul class="modal-features">
+                        <li>Role: Vice President</li>
+                        <li>Organization: ZISCO</li>
+                        <li>Period: 2024/2025</li>
+                        <li>Focus: Community Building & Student Welfare</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Key Competencies</h3>
+                    <div class="modal-tech-stack">
+                        <span class="modal-tech-tag">Community Leadership</span>
+                        <span class="modal-tech-tag">Cultural Ambassador</span>
+                        <span class="modal-tech-tag">Student Affairs</span>
+                        <span class="modal-tech-tag">Team Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RideSense Project Modal -->
+    <div id="ridesenseModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal="ridesenseModal">&times;</span>
+            <div class="modal-body">
+                <h2 class="modal-title">RideSense | Intelligent Analytics for Urban Ride-Hailing</h2>
+
+                <div class="modal-section">
+                    <h3>Project Overview</h3>
+                    <p>
+                        RideSense is an end-to-end analytics solution designed to transform raw ride-hailing data into
+                        actionable intelligence.
+                        The project leverages advanced data mining techniques including clustering, market basket
+                        analysis,
+                        and anomaly detection to solve critical urban transportation challenges such as demand
+                        volatility
+                        and route inefficiency.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/ridesense-slide-1.png" alt="RideSense Title Slide" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Problem Statement & Background</h3>
+                    <p class="modal-description">
+                        Ride-hailing services face critical challenges impacting millions of daily trips.
+                        Our analysis targets Demand Volatility, Route Inefficiency, and Security Risks to improve
+                        operational efficiency and user safety.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/ridesense-slide-2.png" alt="RideSense Background Slide" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Research Objectives</h3>
+                    <p class="modal-description">
+                        We employed a multi-faceted approach:
+                        <br>• Market Basket Analysis for pattern discovery.
+                        <br>• Behavioral Clustering for user segmentation.
+                        <br>• Intelligent Recommendations for optimal travel times.
+                        <br>• Anomaly Detection for identifying irregularities.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/ridesense-slide-3.png" alt="RideSense Objectives Slide" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Data Analysis: Uber Pickups Dataset</h3>
+                    <p class="modal-description">
+                        We analyzed comprehensive Uber pickup data from New York City (Jan-Jun 2015), containing
+                        temporal,
+                        spatial, and trip characteristic features. Key preprocessing steps included missing value
+                        treatment
+                        and outlier removal to ensure data quality.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/ridesense-slide-4.png" alt="RideSense Dataset Slide" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Market Basket Analysis</h3>
+                    <p class="modal-description">
+                        Using the Apriori algorithm, we uncovered hidden trends and relationships in pickup locations.
+                        We identified dispatching bases that frequently have high activity on the same days, revealing
+                        crucial operational patterns.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/ridesense-slide-5.png" alt="RideSense MBA Slide" class="modal-image">
+                    </div>
+                    <div class="modal-image-container" style="margin-top: 1rem;">
+                        <img src="images/ridesense-slide-6.png" alt="RideSense MBA Visualizations" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Clustering Analysis: Rider Segmentation</h3>
+                    <p class="modal-description">
+                        K-means clustering revealed distinct rider behavior segments. We identified three key groups:
+                        High-Capacity Core (Cluster 0), Efficient Performers (Cluster 1), and a Mega-Hub (Cluster 2),
+                        enabling targeted operational strategies.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/ridesense-slide-7.png" alt="RideSense Clustering Slide" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Model Validation & Comparison</h3>
+                    <p class="modal-description">
+                        We validated our findings by comparing K-Means results with Hierarchical Clustering. Both
+                        algorithms produced structurally identical results, confirming that the identified operational
+                        profiles are robust and reliable patterns within the data.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/ridesense-slide-8.png" alt="RideSense Comparison Slide" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Recommender System: Content-Based Filtering</h3>
+                    <p class="modal-description">
+                        We developed a content-based filtering system using time (Hour, Weekday, Month) and location
+                        (Latitude, Longitude) features. The system identifies pickup hotspots via K-Means clustering and
+                        recommends top zones per time slot to optimize driver positioning.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/ridesense-slide-9.png" alt="RideSense Recommender System" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Anomaly Detection: Demand Spikes & Variations</h3>
+                    <p class="modal-description">
+                        Using K-Means Clustering and Isolation Forest, we detected significant anomalies:
+                        <br>• <strong>Unexpected Weekend Spikes</strong>: Unusual demand surges on weekends.
+                        <br>• <strong>Weekday Variations</strong>: Lower trip counts on specific weekdays pointing to
+                        underutilization.
+                        <br>• <strong>Geographic Outliers</strong>: Rare pickup activity in specific locations flagged
+                        by
+                        Isolation Forest.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/ridesense-slide-10.png" alt="RideSense Anomalies Slide" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Key Insights & Algorithm Comparison</h3>
+                    <p class="modal-description">
+                        Isolation Forest detected ~1% anomalies spread across many areas, while LOF (Local Outlier
+                        Factor)
+                        identified anomalies in dense clusters. Many anomalies were linked to late-night trips and
+                        weekends,
+                        supporting dynamic surge pricing and resource allocation strategies.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/ridesense-slide-11.png" alt="RideSense Insights Slide" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Impact & Future Directions</h3>
+                    <p class="modal-description">
+                        This project delivers tangible benefits:
+                        <br>• <strong>Service Providers</strong>: 18% cost reduction via predictive analytics.
+                        <br>• <strong>Urban Planners</strong>: Data-driven infrastructure development.
+                        <br>• <strong>End Users</strong>: 25% reduction in wait times.
+                        <br>Future work includes real-time pipeline integration, multi-modal fusion (weather/traffic
+                        APIs), and cross-city validation.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/ridesense-slide-12.png" alt="RideSense Conclusion Slide" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>References</h3>
+                    <div class="modal-image-container">
+                        <img src="images/ridesense-slide-13.png" alt="RideSense References Slide" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Tech Stack</h3>
+                    <div class="modal-tech-stack">
+                        <span class="modal-tech-tag">Python</span>
+                        <span class="modal-tech-tag">Pandas</span>
+                        <span class="modal-tech-tag">NumPy</span>
+                        <span class="modal-tech-tag">Scikit-learn</span>
+                        <span class="modal-tech-tag">Data Mining</span>
+                        <span class="modal-tech-tag">Anomaly Detection</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NavSmart Project Modal -->
+    <div id="navsmartModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" data-modal="navsmartModal">&times;</span>
+            <div class="modal-body">
+                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                    <h2 class="modal-title" style="margin-bottom: 0;">NavSmart | Campus Navigation System</h2>
+                    <span
+                        style="background: var(--accent); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600;">LIVE</span>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Project Overview</h3>
+                    <p>
+                        Developed a campus-wide smart navigation system that enables users to locate buildings, rooms,
+                        and key facilities through interactive geospatial mapping. Implemented Dijkstra’s shortest-path
+                        algorithm to generate efficient and accurate route recommendations. Designed an immersive
+                        virtual tour module, with a scalable architecture intended for complex environments such as
+                        hospitals, shopping malls, and multi-floor facilities.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/navsmart-hero.png" alt="NavSmart Landing Page" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Interactive Navigation & Directory</h3>
+                    <p class="modal-description">
+                        The system features a comprehensive campus directory and a real-time navigation interface. Users
+                        can search for specific locations and view them on an interactive map powered by Leaflet.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/navsmart-map.png" alt="NavSmart Navigation Interface" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Smart Routing & Wayfinding</h3>
+                    <p class="modal-description">
+                        Using Dijkstra's algorithm, NavSmart calculates the most efficient paths between any two points
+                        on campus. The interface provides clear visual guidance for the selected route.
+                    </p>
+                    <div class="modal-image-container">
+                        <img src="images/navsmart-route.png" alt="NavSmart Routing Logic" class="modal-image">
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Campus Living & Facilities</h3>
+                    <p class="modal-description">
+                        Beyond navigation, the platform serves as a hub for campus life, including student living
+                        information, club directories, and facility details.
+                    </p>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem;">
+                        <div class="modal-image-container">
+                            <img src="images/navsmart-clubs.png" alt="NavSmart Clubs" class="modal-image">
+                        </div>
+                        <div class="modal-image-container">
+                            <img src="images/navsmart-living.png" alt="NavSmart Student Living" class="modal-image">
+                        </div>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem;">
+                        <div class="modal-image-container">
+                            <img src="images/navsmart-accommodation.png" alt="NavSmart Accommodation"
+                                class="modal-image">
+                        </div>
+                        <div class="modal-image-container">
+                            <img src="images/navsmart-education.png" alt="NavSmart Education" class="modal-image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Technical Implementation</h3>
+                    <ul class="modal-features">
+                        <li><strong>Frontend</strong>: Built with React and Tailwind CSS for a responsive, modern UI.
+                        </li>
+                        <li><strong>Mapping</strong>: Integrated Leaflet.js for high-performance geospatial
+                            visualizations.</li>
+                        <li><strong>Algorithms</strong>: Custom implementation of Dijkstra's algorithm for shortest-path
+                            calculation.</li>
+                        <li><strong>Scalability</strong>: Architecture designed to support multi-floor and complex
+                            indoor environments.</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Tech Stack</h3>
+                    <div class="modal-tech-stack">
+                        <span class="modal-tech-tag">React</span>
+                        <span class="modal-tech-tag">Tailwind CSS</span>
+                        <span class="modal-tech-tag">Leaflet</span>
+                        <span class="modal-tech-tag">JavaScript</span>
+                        <span class="modal-tech-tag">Dijkstra's Algorithm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Tadiwanashe Magara. All rights reserved.</p>
+                <p class="footer-tagline">Built with passion for data science and innovation</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
