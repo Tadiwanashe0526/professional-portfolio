@@ -519,3 +519,41 @@ if (weatherModal) {
         }
     });
 }
+
+// Contact Form Submission Handling
+const contactForm = document.getElementById('contact-form');
+const formStatus = document.getElementById('form-status');
+
+if (contactForm) {
+    contactForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const submitBtn = contactForm.querySelector('.terminal-submit-btn');
+        const originalBtnText = submitBtn.innerHTML;
+
+        // Disable button and show loading state
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> sending...';
+        formStatus.style.color = 'var(--text-secondary)';
+        formStatus.textContent = '[SYSTEM] Initializing message transfer protocol...';
+
+        // Simulate network delay
+        setTimeout(() => {
+            formStatus.textContent = '[SYSTEM] Encrypting data packets...';
+
+            setTimeout(() => {
+                formStatus.textContent = '[SUCCESS] Message sent successfully. I will get back to you soon!';
+                formStatus.style.color = '#00ff00';
+
+                // Reset form
+                contactForm.reset();
+
+                // Re-enable button after a delay
+                setTimeout(() => {
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = originalBtnText;
+                }, 3000);
+            }, 1000);
+        }, 1000);
+    });
+}

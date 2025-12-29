@@ -108,7 +108,7 @@ This portfolio is created for Tadiwanashe Magara. Feel free to use it as inspira
 
 ## 🤝 Contact
 
-- **Email**: magaratadiwanashe@gmail.com
+- **Email**: magaratadwa@gmail.com
 - **LinkedIn**: [Tadiwanashe Magara](https://www.linkedin.com/in/tadiwanashe-magara-11125090)
 - **GitHub**: [Tadiwanashe256](https://github.com/Tadiwanashe256)
 
